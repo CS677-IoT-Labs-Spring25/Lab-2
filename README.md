@@ -52,6 +52,7 @@ LDR (short for Light Dependent Resistor) can be used to sense the relative prese
 
 The physical property of the LDR that changes directly is the resistance, which can't be directly measured by a microcontroller, however, MCUs can easily measure voltage; they have built-in ADCs. You can find the ADC enabled pins for the ESP32-S3 above.
 
+![ldr_setup](images/ldr_setup.png)
 
 ## In-lab task:
 
@@ -87,7 +88,7 @@ In this task, let's try to extend the light sensing capabilities of an LDR, and 
 
 If the LED can be controlled to blink with certain patterns, we can induce different voltage levels at the LDR pin. Specifically, if the ambient light is low enough, and is removed as noise from the data, and if the LED is directly facing the LDR, we can detect flashes of pattterns of light as rapidly falling and increasing values. (Hint: 0s and 1s)
 
-<img src="image/ldr_task3" alt="LED and LDR conn" width="400"/>
+<img src="images/ldr_task3" alt="LED and LDR conn" width="400"/>
 
 *Placing LED and LDR directly opposite to each other for better transmission(LED : row 20, 25) and reception (LDR : row 25, 28)*
 
