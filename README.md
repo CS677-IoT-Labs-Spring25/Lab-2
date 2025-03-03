@@ -57,7 +57,7 @@ The physical property of the LDR that changes directly is the resistance, which 
 ## In-lab task:
 
 ### Task 1 - Security system with utlrasonic distance sensor:
-Your first task is to implement a simple intrusion detection system. Suppose your implementation will be used with a door, and the micro-controller uses an LED light to indicate wehether their is unauthorized access or not. The LED should blink green under normal circumstances; however, if someone unauthorized tries to cross the room, the LED should start blinking RED. This LED should keep on blinking RED until someone takes action (add a simple push-down button, which, once pressed, resets the LED back to normal).​
+Your first task is to implement a simple intrusion detection system. Suppose your implementation will be used with a door, and the micro-controller uses an LED light to indicate wehether their is unauthorized access or not. The LED should blink green under normal circumstances; however, if someone unauthorized comes within range of the sensor (i.e distance falls below a defined threshold), the LED should start blinking RED. This LED should keep on blinking RED until someone takes action (add a simple push-down button, which, once pressed, resets the LED back to normal).​
 
 You may find the source file `sonar-demo.ino` helpful as a starting point.
 
