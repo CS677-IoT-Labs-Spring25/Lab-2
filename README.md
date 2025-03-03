@@ -106,7 +106,7 @@ For this task, your job is to implement the following two functions:
 
 Using the functions you wrote above, write a arduino program that:
 1. Takes input bit pattern to send via serial. e.g. (01001 etc.)
-2. Sends the bit pattern using the function you wrote.
+2. Sends the bit pattern via LED using the function you wrote.
 3. Asynchronously listen for data on the other thread, and when the bit pattern specfied by you is received, print that.
 
 Note that, sometimes, you might encounter some strange transmissions like this:
