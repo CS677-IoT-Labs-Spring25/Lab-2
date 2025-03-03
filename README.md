@@ -88,7 +88,7 @@ In this task, let's try to extend the light sensing capabilities of an LDR, and 
 
 If the LED can be controlled to blink with certain patterns, we can induce different voltage levels at the LDR pin. Specifically, if the ambient light is low enough, and is removed as noise from the data, and if the LED is directly facing the LDR, we can detect flashes of pattterns of light as rapidly falling and increasing values. (Hint: 0s and 1s)
 
-![ldr_task3](images/ldr_task3.png)
+<img src="images/ldr_task3.png" alt="LED and LDR conn" width="400"/>
 
 *Placing LED and LDR directly opposite to each other for better transmission(LED : row 20, 25) and reception (LDR : row 25, 28)*
 
